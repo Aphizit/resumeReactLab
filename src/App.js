@@ -1,7 +1,20 @@
 import React, { Component } from 'react';
 //import logo from './logo.svg';
 import './App.css';
-import { FaFacebook, FaGithub,FaTwitterSquare,FaInstagram,FaStar,FaStarHalfAlt,FaRegStar } from 'react-icons/fa';
+import { 
+  FaFacebook, 
+  FaGithub,
+  FaTwitterSquare,
+  FaInstagram,
+  FaStar,
+  FaStarHalfAlt,
+  FaRegStar,
+  FaGamepad,
+  FaFutbol,
+  FaBook,
+  FaCat,
+  FaHeadphonesAlt
+} from 'react-icons/fa';
 
 class App extends Component {
   render() {
@@ -70,6 +83,10 @@ class App extends Component {
             <h3 className="exTitle">Bachelor's Degree in Computer Engineering, Mahanakorn University of Technology</h3><p className="exTime"></p>
           </div>
           <div className="title">Interests</div>
+          <br/><br/>
+          <div className="iconIterests">
+            <FaGamepad/>&nbsp;&nbsp;<FaFutbol/>&nbsp;&nbsp;<FaBook/>&nbsp;&nbsp;<FaCat/>&nbsp;&nbsp;<FaHeadphonesAlt/>
+          </div>
         </div>       
       </div>
     );

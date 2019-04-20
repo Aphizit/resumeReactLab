@@ -66,6 +66,13 @@ p{
 text-align: left;
 font-size: 24px;
 }
+.iconIterests {
+  text-align: left;
+  font-size: 32px;
+  display: flex;
+  justify-content: flex-start;
+}
+
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
