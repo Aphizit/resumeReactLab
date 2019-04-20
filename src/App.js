@@ -20,6 +20,9 @@ class App extends Component {
             Address : Thailand, Bangkok
           </div>
           <h1><FaGithub /><FaFacebook/><FaTwitterSquare/><FaInstagram/></h1>
+          <div className="title">Profile</div>
+          <div className="title">Technical Skills</div>
+          <div className="title">Language Skills</div>
         </div>
         <div className="app-right">
           <div className="title">Experience</div>

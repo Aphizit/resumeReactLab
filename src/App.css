@@ -34,7 +34,10 @@ h1,h2,.contract,.title{
 }
 
 .title {
+  display: inline-flex;
+  width: 100%;
   font-size: 24px;
+  border-bottom: green solid;
 }
 
 .App-logo {
